@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+/* .bg-container {
+  background-color: #faeca0;
+} */
+
+* {
+  font-family: "Bebas Neue", sans-serif !important;
+}
+
+nav {
+  background-color: #000;
+  height: 80px;
+}
+
+#navItems {
+  display: flex;
+  justify-content: space-between !important;
+}
+.navbarList {
+  width: 90% !important;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-evenly !important;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-right: 10%;
+}
+.logo-image {
+  width: 60px;
+  margin-left: 0;
+}
+.logo {
+  color: white;
+  font-size: 25px;
+  font-family: "Roboto";
+  font-weight: 600;
+}
+
+#nav-style1 {
+  color: white;
+  font-size: 22px;
+  font-family: "Roboto";
+  font-weight: 600;
+}
+
+#nav-style2 {
+  color: #fff;
+  font-size: 22px;
+  font-family: "Roboto";
+  font-weight: 600;
+}
+
+#nav-style3 {
+  color: #fff;
+  font-size: 22px;
+  font-family: "Roboto";
+  font-weight: 600;
+}
+
+#nav-style4 {
+  color: #fff;
+  font-size: 22px;
+  font-family: "Roboto";
+  font-weight: 600;
+}
+
+#nav-style5 {
+  color: #fff;
+  font-size: 22px;
+  font-family: "Roboto";
+  font-weight: 600;
+}
+
+#nav-style6 {
+  color: #fff;
+  font-size: 22px;
+  font-family: "Roboto";
+  font-weight: 600;
+}
+
+.bg-banner-section {
+  background-color: #000;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("bg3.png");
+  /* height: 100vh; */
+  background-size: cover;
+}
+h1,
+p {
+  color: #fff;
+  font-size: 26px;
+  margin: 0;
+}
+span,
+.points {
+  color: #f575fe;
+}
+.buy-link {
+  color: #7b89ce;
+  font-size: 22px;
+}
+
+img {
+  width: 380px;
+}
+
+.firstbag-image {
+  width: 368px;
+  margin-bottom: 26px;
+}
+.correct-ans {
+  color: #48b039;
+  font-weight: bold;
+  text-align: center;
+  position: absolute;
+  top: -40px;
+  align-self: center;
+}
+.points {
+  font-size: 17px;
+  font-weight: bold;
+  position: relative;
+  top: -40px;
+  align-self: flex-end;
+}
+
+.bag-answers-container {
+  /* height: 200px; */
+  display: flex;
+  flex-direction: column;
+}
+
+.bags-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.bag-section-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.bag-section-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
